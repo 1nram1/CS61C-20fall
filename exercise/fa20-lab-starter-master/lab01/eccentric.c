@@ -10,6 +10,7 @@ int main(void) {
     int a;
     char *s;
 
+
     /* This is a print statement. Notice the little 'f' at the end!
      * It might be worthwhile to look up how printf works for your future
      * debugging needs... */

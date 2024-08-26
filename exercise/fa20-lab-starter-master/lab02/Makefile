@@ -48,3 +48,7 @@ clean:
 
 vector.c: vector.h
 vector-test.c: vector.h
+
+$(VECTOR_PROG): $(VECTOR_OBJS)
+	$(CC) $(CFLAGS) -o $(VECTOR_PROG) $(VECTOR_OBJS) $(LDFLAGS)
+

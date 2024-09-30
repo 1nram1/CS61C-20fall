@@ -5,6 +5,8 @@ int fun(int x) {
 	return -x * (x + 1);
 }
 
+
+
 int main() {
     int k;
     int sum = 0;
